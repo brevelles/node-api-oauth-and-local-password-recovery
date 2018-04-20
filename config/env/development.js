@@ -11,9 +11,6 @@ const host = process.env.DB_HOST,
   facebookID = process.env.DB_Facebook_ID,
   facebookSecret = process.env.DB_Facebook_SECRET,
   facebookCallback = process.env.DB_Facebook_CALLBACK,
-  twitterID = process.env.DB_Twitter_ID,
-  twitterSecret = process.env.DB_Twitter_SECRET,
-  twitterCallback = process.env.DB_Twitter_CALLBACK,
   mailUser = process.env.DB_MAIL_USER,
   mailPass = process.env.DB_MAIL_PASS,
   mailHost = process.env.DB_MAIL_HOST,
@@ -36,11 +33,6 @@ module.exports = {
     clientID: googleID,
     clientSecret: googleSecret,
     callbackURL: googleCallback
-  },
-  twitter: {
-    clientID: twitterID,
-    clientSecret: twitterSecret,
-    callbackURL: twitterCallback
   },
   mailUser: mailUser,
   mailPass: mailPass,
